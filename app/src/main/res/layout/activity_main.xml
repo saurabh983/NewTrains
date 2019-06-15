@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#FA0505"
+        android:textSize="28dp"
+        android:id="@+id/ayush"
+        android:text="Ayush" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#0E67FF"
+        android:textSize="28dp"
+        android:id="@+id/raman"
+        android:text="Raman" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saurabh"
+        android:textColor="#333"
+        android:textSize="28dp"
+        android:id="@+id/saurabh"
+        android:layout_margin="16dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="#333"
+        android:hint="Number one"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edt1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="#333"
+        android:hint="Number two"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edt2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn1"
+        android:text="Show"
+        android:textColor="#333"
+        android:textSize="26dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn2"
+        android:text="xyz"
+        android:textColor="#333"
+        android:textSize="26dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginTop="20dp"/>v
+</LinearLayout>
